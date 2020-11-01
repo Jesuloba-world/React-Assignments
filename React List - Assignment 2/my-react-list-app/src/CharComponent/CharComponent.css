@@ -1,0 +1,27 @@
+.charComponent {
+    display: inline-block;
+    padding: 16px;
+    text-align: center;
+    margin: 16px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.charComponent button {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    text-align: center;
+    font-size: 10px;
+    color: red;
+    height: 15px;
+    width: 15px;
+    border: none;
+    border-radius: 100%;
+}
+
+.charComponent button:focus {
+    outline: none;
+}
